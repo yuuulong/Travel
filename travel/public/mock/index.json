@@ -1,0 +1,114 @@
+{
+  "ret": true,
+  "data": {
+    "city": "沈阳",
+    "swiperList": [
+      {
+        "id": "001",
+        "imgUrl": "/imgs/lunbo1.jpg"
+      },
+      {
+        "id": "002",
+        "imgUrl": "/imgs/lunbo2.jpg"
+      },
+      {
+        "id": "003",
+        "imgUrl": "/imgs/lunbo3.jpg"
+      }
+    ],
+    "iconList": [
+      {
+        "id": "001",
+        "imgUrl": "/imgs/piao.png",
+        "desc": "景点门票"
+      },
+      {
+        "id": "002",
+        "imgUrl": "/imgs/package.png",
+        "desc": "滑雪季"
+      },
+      {
+        "id": "003",
+        "imgUrl": "/imgs/flight.png",
+        "desc": "泡温泉"
+      },
+      {
+        "id": "004",
+        "imgUrl": "/imgs/train.png",
+        "desc": "动植园"
+      },
+      {
+        "id": "005",
+        "imgUrl": "/imgs/hotel.png",
+        "desc": "游乐园"
+      },
+      {
+        "id": "006",
+        "imgUrl": "/imgs/train.png",
+        "desc": "必游榜单"
+      },
+      {
+        "id": "007",
+        "imgUrl": "/imgs/hotel.png",
+        "desc": "演出"
+      },
+      {
+        "id": "008",
+        "imgUrl": "/imgs/train.png",
+        "desc": "城市观光"
+      },
+      {
+        "id": "009",
+        "imgUrl": "/imgs/train.png",
+        "desc": "一日游"
+      },
+      {
+        "id": "010",
+        "imgUrl": "/imgs/train.png",
+        "desc": "七日游"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "001",
+        "imgUrl": "/imgs/recommend4.jpg",
+        "title": "故宫",
+        "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+      },
+      {
+        "id": "002",
+        "imgUrl": "/imgs/recommend4.jpg",
+        "title": "南山滑雪场",
+        "desc": "北京专业级滑雪圣地"
+        
+      },
+      {
+        "id": "003",
+        "imgUrl": "/imgs/recommend4.jpg",
+        "title": "天安门广场",
+        "desc": "我爱北京天安门，天安门上太阳升"
+      }
+     
+    ],
+    "weekendList": [
+      {
+        "id": "001",
+        "imgUrl": "/imgs/recommend1.jpg",
+        "title": "北京温泉排行榜",
+        "desc": "细数北京温泉，温暖你的冬天"
+      },
+      {
+        "id": "002",
+        "imgUrl": "/imgs/recommend2.jpg",
+        "title": "寻找北京的皇城范儿",
+        "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+      },
+      {
+        "id": "003",
+        "imgUrl": "/imgs/recommend3.jpg",
+        "title": "学生最爱的博物馆",
+        "desc": "周末干嘛？北京很多博物馆已经免费开放啦"
+      }
+    ]
+  }
+}

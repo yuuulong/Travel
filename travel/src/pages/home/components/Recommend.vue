@@ -17,35 +17,8 @@
 <script>
 export default {
   name: "HomeRecommend",
-  data() {
-    return {
-      recommendList: [
-        {
-          id: "0001",
-          imgUrl: require("../imgs/recommend4.jpg"),
-          title: "欢迎参观庄严肃穆的沈阳故宫",
-          desc: "不负嵊夏好时光，不负嵊夏好时光观皇家宫苑,赏珍宝文物"
-        },
-        {
-          id: "0002",
-          imgUrl: require("../imgs/recommend4.jpg"),
-          title: "欢迎参观庄严肃穆的沈阳故宫",
-          desc: "不负嵊夏好时光，不负嵊夏好时光观皇家宫苑,赏珍宝文物"
-        },
-        {
-          id: "0003",
-          imgUrl: require("../imgs/recommend4.jpg"),
-          title: "欢迎参观庄严肃穆的沈阳故宫",
-          desc: "不负嵊夏好时光，不负嵊夏好时光观皇家宫苑,赏珍宝文物"
-        },
-        {
-          id: "0004",
-          imgUrl: require("../imgs/recommend4.jpg"),
-          title: "欢迎参观庄严肃穆的沈阳故宫",
-          desc: "不负嵊夏好时光，不负嵊夏好时光观皇家宫苑,赏珍宝文物"
-        }
-      ]
-    };
+  props: {
+    recommendList: Array
   }
 };
 </script>

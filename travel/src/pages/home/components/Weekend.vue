@@ -3,7 +3,7 @@
     <div class="title">周末去哪儿玩</div>
     <div class="item-img-wrapper">
       <ul>
-        <li class="item" v-for="item of recommendList" :key="item.id">
+        <li class="item" v-for="item of weekendList" :key="item.id">
           <img class="item-img" :src="item.imgUrl" />
           <div class="item-info">
             <p class="item-title">{{ item.title }}</p>
@@ -17,29 +17,8 @@
 <script>
 export default {
   name: "HomeWeekend",
-  data() {
-    return {
-      recommendList: [
-        {
-          id: "0001",
-          imgUrl: require("../imgs/recommend1.jpg"),
-          title: "欢迎参观庄严肃穆的沈阳故宫",
-          desc: "不负嵊夏好时光，不负嵊夏好时光观皇家宫苑,赏珍宝文物"
-        },
-        {
-          id: "0002",
-          imgUrl: require("../imgs/recommend2.jpg"),
-          title: "欢迎参观庄严肃穆的沈阳故宫",
-          desc: "不负嵊夏好时光，不负嵊夏好时光观皇家宫苑,赏珍宝文物"
-        },
-        {
-          id: "0003",
-          imgUrl: require("../imgs/recommend3.jpg"),
-          title: "欢迎参观庄严肃穆的沈阳故宫",
-          desc: "不负嵊夏好时光，不负嵊夏好时光观皇家宫苑,赏珍宝文物"
-        }
-      ]
-    };
+  props: {
+    weekendList: Array
   }
 };
 </script>
