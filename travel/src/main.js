@@ -2,6 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import './assets/styles/reset.css'
+// 使用vuex
+import store from './store'
 // 移动端1px边框问题
 import './assets/styles/border.css'
 import fastClick from 'fastclick'
@@ -17,4 +19,5 @@ Vue.use(VueAwesomeSwiper, /* { default global options } */)
 new Vue({
   render: h => h(App),
   router,
+  store,
 }).$mount('#app')
