@@ -50,7 +50,7 @@ export default {
         if (this.timer) {
           clearTimeout(this.timer)
         }
-        this.timer =setTimeout(() =>{
+        this.timer = setTimeout(() =>{
           // 手指开始触碰到屏幕顶部高度-顶部导航栏的高度
           const touchY = e.touches[0].clientY - 79
           // 差值除以每个字母的高度得到数字索引值index
