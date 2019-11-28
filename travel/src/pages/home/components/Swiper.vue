@@ -18,7 +18,10 @@ export default {
   data() {
     return {
       swiperOption: {
-        pagination: ".swiper-pagination",
+        pagination: {
+          el: ".swiper-pagination",
+          // type: 'fraction',
+        },
         loop:true,
         autoplay: true
       },
@@ -34,7 +37,7 @@ export default {
 };
 </script>
 <style lang="stylus" scoped>
-.wrapper >>> .swiper-pagination-bullet-active {
+.wrapper >>> .swiper-pagination-bullet {
   background: #fff;
 }
 
@@ -43,6 +46,9 @@ export default {
 
   .swiper-img {
     width: 100%;
+  }
+  .swiper-pagination {
+    color #fff
   }
 }
 </style>
