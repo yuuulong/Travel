@@ -23,6 +23,8 @@ module.exports = {
         config.resolve.alias
             .set('common', resolve('src/common'))
             .set('styles', resolve('src/assets/styles'))
+            .set('imgs', resolve('src/assets/styles'))
+
 
             
     }
