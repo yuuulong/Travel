@@ -16,7 +16,9 @@ export default new Router({
 
 
 
-    
-
-  ]
+  ],
+  // 滚动行为设置，每次进入新页面，都从顶部开始
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })

@@ -1,10 +1,10 @@
 <template>
  <div>
   <div class="banner" @click="handleBannerClick">
-    <img src="/imgs/recommend1.jpg" class="banner-img">
+    <img :src="bannerImg" class="banner-img">
     <div class="banner-info">
-      <div class="banner-title">大连圣亚海洋世界（AAAA景区）</div>
-      <div class="banner-number"><span class="iconfont banner-icon">&#xe634;</span>{{imgs.length}}</div>
+      <div class="banner-title">{{ this.sightName}}</div>
+      <div class="banner-number"><span class="iconfont banner-icon">&#xe634;</span>{{this.imgs.length}}</div>
     </div>
   </div>
   <common-gallary @close="handleGallaryClose" :imgs="imgs" v-show="showGallary"></common-gallary>
@@ -14,6 +14,11 @@
 import CommonGallary from 'common/gallary/Gallary'
 export default {
   name: 'Detail',
+  props: {
+    sightName: String,
+    bannerImg: String,
+    gallaryImgs: Array,
+  },
   components: {
     CommonGallary,
   },
