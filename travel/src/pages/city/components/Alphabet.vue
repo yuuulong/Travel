@@ -6,8 +6,8 @@
       :key="key"
       :ref="key"
       @click="handleLetterClick"
-      @touchstart="handleTouchStart"
-      @touchmove="handleTouchMove"
+      @touchstart.prevent="handleTouchStart"
+      @touchmove.prevent="handleTouchMove"
       @touchend="handleTouchEnd"
     >{{key}}</li>
   </ul>

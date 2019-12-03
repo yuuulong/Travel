@@ -4,16 +4,16 @@ function resolve (dir) {
 }
 module.exports = {
   devServer: {
+    // host: '0.0.0.0',
+    // port: 8081,
     proxy: {
       '/api': {
         target: 'http://localhost:8080',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '/mock',
-
         }
       },
-      
     },
    
 
